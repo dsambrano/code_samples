@@ -1,0 +1,4 @@
+0.5296 	ERROR 	Requested audio device 'auto' that is not available on this hardware. The 'audioDevice' preference should be one of [u'Built-in Output']
+21.1023 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=0
+21.2635 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=00
+21.7752 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=000

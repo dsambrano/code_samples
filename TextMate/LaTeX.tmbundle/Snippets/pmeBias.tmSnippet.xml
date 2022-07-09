@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\left&lt;\left(\hat{s} -s\right)^2\right&gt; = \frac{\frac{(\mu - s)^2}{\sigma_s^4}}{\left(\frac{1}{\sigma^2} + \frac{1}{\sigma_s^2}\right)^2} + \frac{\frac{1}{\sigma^2}}{\left(\frac{1}{\sigma^2} + \frac{1}{\sigma_s^2}\right)^2}</string>
+	<key>name</key>
+	<string>Bayes: Long Expected Square Error</string>
+	<key>tabTrigger</key>
+	<string>eseL</string>
+	<key>uuid</key>
+	<string>E18AEC06-5B21-4784-B72A-07EE6A5F90CA</string>
+</dict>
+</plist>

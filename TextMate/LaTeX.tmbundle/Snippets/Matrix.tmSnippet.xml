@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>\begin{${1:p/b/v/V/B/small}matrix}
+	$0
+	1 &amp; 2 &amp; 3\\
+	4 &amp; 5 &amp; 6\\
+	7 &amp; 8 &amp; 9
+\end{${1:p/b/v/V/B/small}matrix}</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>66265AD6-3D2A-4888-9A9B-2B37860C79F3</string>
+</dict>
+</plist>

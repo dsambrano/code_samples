@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>olddir = pwd;
+newdir = $TM_DIRECTORY;
+cd(newdir)</string>
+	<key>name</key>
+	<string>My Directory</string>
+	<key>tabTrigger</key>
+	<string>cd</string>
+	<key>uuid</key>
+	<string>A14817AB-224B-49A2-A0C7-536B72718788</string>
+</dict>
+</plist>

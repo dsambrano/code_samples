@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>p(A \mid B) = \frac{p(B \mid A) p(A)}{p(B)}</string>
+	<key>name</key>
+	<string>Bayes</string>
+	<key>tabTrigger</key>
+	<string>Bayes</string>
+	<key>uuid</key>
+	<string>382E80FD-3ECC-4B25-8E93-BD4D81A2734A</string>
+</dict>
+</plist>

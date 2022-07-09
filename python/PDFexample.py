@@ -1,0 +1,1 @@
+"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o ~/Dropbox/Fullerton/Psychology/Fall\ 2016/IRT/Exam\ 2/Paper/Output/All.pdf ~/Dropbox/Fullerton/Psychology/Fall\ 2016/IRT/Exam\ 2/Paper/Output/*

@@ -1,0 +1,8 @@
+# Basic IPv4 Scan 
+nmap -sP 192.168.1.0/24
+
+# IPv4 Scan and Return OS
+nmap -sT 192.168.1.0/24
+
+# List all IPv6
+nmap -6 --script=targets-ipv6-multicast-*

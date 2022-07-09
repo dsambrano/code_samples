@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\frac{1}{\frac{1}{\sigma_s^2} + \frac{1}{\sigma^2}}</string>
+	<key>name</key>
+	<string>Bayes: Expected Square Error</string>
+	<key>tabTrigger</key>
+	<string>ese</string>
+	<key>uuid</key>
+	<string>D3253F8D-7420-41C2-A8BF-AC6F7B442B41</string>
+</dict>
+</plist>

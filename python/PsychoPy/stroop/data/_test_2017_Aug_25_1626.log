@@ -1,0 +1,13 @@
+0.5092 	ERROR 	Requested audio device 'auto' that is not available on this hardware. The 'audioDevice' preference should be one of [u'Built-in Output']
+4.8677 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1143aefd0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=(2560, 1440), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.8677 	EXP 	window1: recordFrameIntervals = False
+5.0346 	EXP 	window1: recordFrameIntervals = True
+5.2175 	EXP 	window1: recordFrameIntervals = False
+5.2728 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Page 1', units=u'norm', win=Window(...), wrapWidth=1)
+5.2757 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Page 2', units=u'norm', win=Window(...), wrapWidth=1)
+5.2789 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='YAY!', units=u'norm', win=Window(...), wrapWidth=1)
+5.2898 	EXP 	text_2: autoDraw = True
+6.9696 	DATA 	Keypress: num_enter
+6.9862 	EXP 	text_2: autoDraw = False
+6.9862 	EXP 	text_3: autoDraw = True
+8.6708 	DATA 	Keypress: escape

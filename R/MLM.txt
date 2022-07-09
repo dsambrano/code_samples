@@ -1,0 +1,6 @@
+http://ase.tufts.edu/gsc/gradresources/guidetomixedmodelsinr/mixed%20model%20guide.html
+
+# Plots
+https://stackoverflow.com/questions/31075407/plot-mixed-effects-model-in-ggplot
+# More Plots
+https://cran.r-project.org/web/packages/sjPlot/vignettes/sjplmer.html

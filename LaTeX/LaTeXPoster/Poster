@@ -1,0 +1,55 @@
+\documentclass{beamer}
+\usepackage{tikz}
+
+
+
+
+
+
+\begin{document}
+	
+\begin{figure}
+	\begin{center}
+		\begin{tikzpicture}[xscale=1.5]
+			\tikzstyle{arrow}=[draw, -latex]
+			\newcommand\Xmax{5}
+			\newcommand\XMid{\Xmax/2}
+			\newcommand\Xtext{\Xmax}
+
+			\newcommand\YSpace{2}
+			\newcommand\Yclass{1.5}
+			\newcommand\YStim{\Yclass-\YSpace}
+			\newcommand\Yxs{\YStim-\YSpace}
+
+			% Grid
+			\draw [help lines] (0,-5) grid (7,3);
+			 % Class
+			\node [draw, circle, minimum width=1cm, ultra thick] at (\XMid,\Yclass) (C) {$C$};
+			\node [anchor=west] at (\Xtext, \Yclass) (Cstat) {$p(C = 1) = .5$};
+
+			 % Stimulus
+			\node [draw, circle, minimum width=1cm, ultra thick] at (\XMid,\YStim) (S) {$S$};
+			\node [anchor=west, align=left] at (\Xtext, \YStim) (Cstat) {$p(S|C = 1) = 2\mathcal{N}(S;0,\sigma_s^2)H(C\cdot S)$\\$p(S|C = 1) = U(0,1)$};
+
+			 % Observations
+			\node [draw, circle, minimum width=1cm, ultra thick] at (.5,\Yxs) (x1) {$x_1$};
+			\node [draw, circle, minimum width=1cm, ultra thick] at (1.5,\Yxs) (x2) {$x_2$};
+			\node [draw, circle, minimum width=1cm, ultra thick] at (2.5,\Yxs) (x3) {$x_3$};
+			\node [draw, circle, minimum width=1cm, ultra thick, white] at (3.5,\Yxs) (dots) {\textcolor{black}{$\ldots$}};
+			\node [draw, circle, minimum width=1cm, ultra thick] at (4.5,\Yxs) (xt) {$x_t$};
+			\node [anchor=west] at (\Xtext, \Yxs) (Cstat) {$\mathcal{N}(x;s,\sigma^2)$};
+  
+			 % Path Arrows 
+			\path [arrow, ultra thick] (C) -- (S);
+ 
+			\path [arrow, ultra thick] (S) -- (x1.north);
+			\path [arrow, ultra thick] (S) -- (x2.north);
+			\path [arrow, ultra thick] (S) -- (x3.north);
+			\path [arrow, ultra thick] (S) -- (dots.north);
+			\path [arrow, ultra thick] (S) -- (xt.north);
+ 
+		\end{tikzpicture}
+	\end{center}
+\caption{\label{fig:GModel}Generative Model.}
+\end{figure} 
+\end{document}

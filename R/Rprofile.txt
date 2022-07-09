@@ -1,0 +1,2 @@
+# should be saved in a file '.Rprofile' in the home directory
+Sys.setenv(PATH = paste("/Users/Deshawn/anaconda/envs/rpy/bin/", Sys.getenv("PATH"), sep=":"))

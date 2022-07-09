@@ -1,0 +1,5 @@
+ The absence of a source command in MATLAB makes usage less wieldy. However, a couple of tricks can be used. Under unix-like systems a symlink of the form
+ln -s myexample.tex myexample.m
+will allow you to treat the LaTeX code like a regular m-file. Alternatively
+matlab < myexample.tex 
+will cause the contents of myexample.tex to be run through the MATLAB engine.

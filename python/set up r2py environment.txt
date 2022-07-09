@@ -1,0 +1,39 @@
+# set up r2py environment
+
+conda create -n rpy -c r r-essentials python=3.7
+source activate rpy
+
+# Install additional R packages through the conda
+conda install -c r rpy2 r-hmisc r-psych r-car r-mass r-matrix r-nlme r-lme4 r-lmertest r-ggplot2
+# conda install -c conda-forge r-lme4 r-lmertest
+conda install pyqt scipy pandas numpy matplotlib seaborn
+
+# Now install appropriate python modules
+pip install tzlocal simplegeneric jupyterthemes qtconsole jupyter_contrib_nbextensions
+
+# Open jupyter notebook and make an R notebook and install additional packages
+# jupyter-notebook
+# install.packages(c('ggpubr', 'ggsci'))
+
+# jupyter contrib nbextension install --user # This is to add the TOC stuff
+conda install -c conda-forge jupyter_contrib_nbextensions
+
+# pip install jupyterthemes
+jt -t monokai -f roboto -fs 11 -cellw 80% -ofs 11 -dfs 11 -T -N
+
+# You may need to also do this to import matplotlib/seaborn
+#echo 'backend: TkAgg' >> ~/.matplotlib/matplotlibrc
+
+# May also need to do the following to link ipython and python
+conda install -c anaconda ipython
+
+
+# Creates a configuration file for the qt console. Then specify your dimensions
+# c.JupyterWidget.syntax_style = 'paraiso-dark' as an example
+jupyter qtconsole --generate-config
+
+
+## Converting to html
+jt -r
+jupyter nbconvert --to html_toc data_analysis_python.ipynb
+jt -t monokai -f roboto -fs 11 -cellw 80% -ofs 11 -dfs 11 -T -N

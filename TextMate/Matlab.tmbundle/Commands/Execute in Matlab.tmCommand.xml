@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/bin/bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+cat | "$TM_BUNDLE_SUPPORT/to_matlab.scpt"
+
+
+if [ "$TM_LINE_NUMBER" != "" ]; then
+    "$TM_MATE" -l "$(($TM_LINE_NUMBER+1)):1000000"
+elif [[ $TM_SELECTION =~ [1-9][0-9]*:?[0-9]*-([1-9][0-9]*):?[0-9]* ]]; then
+    # Regular Selection
+    "$TM_MATE" -l "$((${BASH_REMATCH[1]}+1)):1000000"
+elif [[ $TM_SELECTION =~ [1-9][0-9]*:?[0-9]*x([1-9][0-9]*):?[0-9]* ]]; then 
+    # Block (option) selection
+    "$TM_MATE" -l "$((${BASH_REMATCH[1]}+1)):1000000"
+else 
+    "$TM_MATE"
+fi
+</string>
+		<key>keyEquivalent</key>
+		<string>@</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>064E306B-FF23-432B-952F-55AC3BEF029E</string>
+</dict>
+</plist>

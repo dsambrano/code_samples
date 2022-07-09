@@ -1,0 +1,5 @@
+{
+  "auto_save_on_modified": false,
+  "auto_save_delay_in_seconds": 2,
+  "keys": ["ctrl+shift+s"], "command": "auto_save"
+}

@@ -1,0 +1,54 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpe-file, coding: cp1252
+#date: Mon Oct 22 2018 12:10:25
+#sha1: 44d263
+#modules: 
+#display: size=(1280, 1024), window_mode=False, open_gl=2
+#os: ('Windows', 'biopac', '7', '6.1.7601', 'AMD64', 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+15343,design,log,
+#design: #exp: FCWML132 - Calibration
+#design: #dvn: Logevent,Onset,Key,RT,Dur_Dig,Dur_Fix
+#design: block_cnt,block_id,trial_cnt,trial_id,Y,X
+#design: 0,0,0,0,0,0
+#design: 0,0,1,1,0,1
+#design: 0,0,2,2,0,2
+#design: 0,0,3,3,1,0
+#design: 0,0,4,4,1,1
+#design: 0,0,5,5,1,2
+#design: 0,0,6,6,2,0
+#design: 0,0,7,7,2,1
+#design: 0,0,8,8,2,2
+15343,design,logged,
+15343,Experiment,started
+15374,Stimulus,presented,11
+18494,Keyboard,received,32,wait
+18495,Stimulus,presented,9
+20497,Stimulus,presented,10
+21505,Stimulus,presented,0
+26582,Keyboard,received,32,wait
+26582,Stimulus,presented,10
+27585,Stimulus,presented,1
+29150,Keyboard,received,32,wait
+29151,Stimulus,presented,10
+30151,Stimulus,presented,2
+31894,Keyboard,received,32,wait
+31894,Stimulus,presented,10
+32899,Stimulus,presented,3
+34526,Keyboard,received,32,wait
+34526,Stimulus,presented,10
+35532,Stimulus,presented,4
+36958,Keyboard,received,32,wait
+36958,Stimulus,presented,10
+37964,Stimulus,presented,5
+39366,Keyboard,received,32,wait
+39366,Stimulus,presented,10
+40363,Stimulus,presented,6
+41254,Keyboard,received,32,wait
+41254,Stimulus,presented,10
+42262,Stimulus,presented,7
+43061,Keyboard,received,32,wait
+43062,Stimulus,presented,10
+44061,Stimulus,presented,8
+45374,Keyboard,received,32,wait
+45374,Experiment,ended
+45386,Stimulus,presented,12

@@ -1,0 +1,4 @@
+# Setting up .gitignore file. First place the file in the root directory (i.e., not inside the .git repo). Then follow these steps
+git rm -r --cached . # Removes the cached items to you they are no longer pre stored
+git add . # You have to re add back everything 
+git commit -m "Fixed untracked changes"

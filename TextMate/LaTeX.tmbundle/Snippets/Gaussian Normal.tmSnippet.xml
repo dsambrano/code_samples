@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(s - \mu)^2}{2\sigma^2}} </string>
+	<key>name</key>
+	<string>Gaussian Normal</string>
+	<key>tabTrigger</key>
+	<string>gauss</string>
+	<key>uuid</key>
+	<string>DDA8B57E-E7F0-4AA0-8CA3-A88426714BAC</string>
+</dict>
+</plist>

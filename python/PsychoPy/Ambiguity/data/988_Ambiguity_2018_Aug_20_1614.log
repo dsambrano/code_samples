@@ -1,0 +1,262 @@
+3.1287 	ERROR 	Requested audio device 'auto' that is not available on this hardware. The 'audioDevice' preference should be one of [u'Built-in Output']
+6.7369 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=9
+8.4154 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=98
+9.1128 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'str'>, value=988
+11.5195 	WARNING 	User requested fullscreen with size [1280  800], but screen is actually [2560, 1440]. Using actual size
+12.1411 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1161fe890>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=(2560, 1440), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1411 	EXP 	window1: recordFrameIntervals = False
+12.3020 	EXP 	window1: recordFrameIntervals = True
+12.4855 	EXP 	window1: recordFrameIntervals = False
+12.5750 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.075, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=2)
+12.6135 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=2)
+12.6139 	EXP 	Created RedNumb = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.05, italic=False, name='RedNumb', opacity=1.0, ori=0, pos=array([ 0.  ,  0.25]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+12.6142 	EXP 	Created BlueNumb = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.05, italic=False, name='BlueNumb', opacity=1.0, ori=0, pos=array([ 0.  , -0.67]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+12.6145 	EXP 	Created GreyNumb = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.05, italic=False, name='GreyNumb', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+12.6147 	EXP 	Created RMoney = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.05, italic=False, name='RMoney', opacity=1.0, ori=0, pos=array([ 0.  ,  0.35]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+12.6150 	EXP 	Created BMoney = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.05, italic=False, name='BMoney', opacity=1.0, ori=0, pos=array([ 0.  , -0.75]), rgb=array([ 255.,  255.,  255.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+12.6237 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.2,  0. ],
+       [ 0.2,  0. ],
+       [ 0.2,  0. ],
+       [-0.2,  0. ]])
+12.6246 	EXP 	Created GreyLine = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='GreyLine', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+12.6270 	EXP 	Created fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='+', units=u'norm', win=Window(...), wrapWidth=1)
+12.6298 	EXP 	Created LeftRep = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='LeftRep', opacity=1.0, ori=0, pos=array([-0.6,  0.7]), rgb=array([ 255.,  255.,  255.]), text='Q\nPay', units=u'norm', win=Window(...), wrapWidth=1)
+12.6334 	EXP 	Created MiddleRep = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='MiddleRep', opacity=1.0, ori=0, pos=array([ 0. ,  0.7]), rgb=array([ 255.,  255.,  255.]), text='Space\nKeep', units=u'norm', win=Window(...), wrapWidth=1)
+12.6359 	EXP 	Created RightRep = TextStim(alignHoriz='right', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='RightRep', opacity=1.0, ori=0, pos=array([ 0.6,  0.7]), rgb=array([ 255.,  255.,  255.]), text='P\nGamble', units=u'norm', win=Window(...), wrapWidth=1)
+12.6509 	EXP 	Created thanksText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.2, italic=False, name='thanksText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+12.6699 	EXP 	text: autoDraw = True
+22.1078 	DATA 	Keypress: space
+22.1215 	EXP 	text: autoDraw = False
+22.1215 	EXP 	text: autoDraw = True
+25.6737 	DATA 	Keypress: space
+25.6838 	EXP 	Imported trialTypes.csv as conditions, 18 conditions, 9 params
+25.6857 	EXP 	Created sequence: random, trialTypes=18, nReps=1, seed=None
+25.6862 	EXP 	New trial (rep=0, index=0): {'Safe': 5, 'Bmoney': None, 'Center': 0.25, 'Uncertainty': 0.20000000000000001, 'BlueHeight': 0.75, 'High': 20, 'RedHeight': 0.25, 'Rmoney': None, 'Low': 0}
+25.6992 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1  ,  0.125],
+       [ 0.1  ,  0.125],
+       [ 0.1  , -0.125],
+       [-0.1  , -0.125]])
+25.7002 	EXP 	Created Red = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=False, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1, name='Red', opacity=1.0, ori=array(0.0), pos=array([ 0.   ,  0.175]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+25.7003 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1  ,  0.375],
+       [ 0.1  ,  0.375],
+       [ 0.1  , -0.375],
+       [-0.1  , -0.375]])
+25.7012 	EXP 	Created Blue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='Blue', opacity=1.0, ori=array(0.0), pos=array([ 0.   , -0.325]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+25.7014 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1125,  0.1   ],
+       [ 0.1125,  0.1   ],
+       [ 0.1125, -0.1   ],
+       [-0.1125, -0.1   ]])
+25.7022 	EXP 	Created Grey = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='Grey', opacity=1.0, ori=array(0.0), pos=array([ 0.  ,  0.05]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+25.7234 	EXP 	text: autoDraw = False
+25.7234 	EXP 	RMoney: text = '$19.61'
+25.7234 	EXP 	BMoney: text = '$-1.16'
+25.7234 	EXP 	GreyNumb: text = '20%'
+25.7234 	EXP 	GreyNumb: pos = array([ 0.  ,  0.05])
+25.7234 	EXP 	RedNumb: text = '25%'
+25.7234 	EXP 	RedNumb: pos = array([ 0.   ,  0.175])
+25.7234 	EXP 	BlueNumb: text = '75%'
+25.7234 	EXP 	BlueNumb: pos = array([ 0.   , -0.325])
+25.9561 	EXP 	fixation: autoDraw = True
+26.7061 	EXP 	RightRep: autoDraw = True
+26.7061 	EXP 	MiddleRep: autoDraw = True
+26.7061 	EXP 	LeftRep: autoDraw = True
+26.7061 	EXP 	Red: autoDraw = True
+26.7061 	EXP 	Blue: autoDraw = True
+26.7061 	EXP 	Grey: autoDraw = True
+26.7061 	EXP 	RMoney: autoDraw = True
+26.7061 	EXP 	BMoney: autoDraw = True
+26.7061 	EXP 	GreyNumb: autoDraw = True
+26.7061 	EXP 	fixation: autoDraw = False
+34.3265 	DATA 	Keypress: p
+34.3272 	EXP 	New trial (rep=0, index=1): {'Safe': 5, 'Bmoney': None, 'Center': 0.25, 'Uncertainty': 0.10000000000000001, 'BlueHeight': 0.75, 'High': 20, 'RedHeight': 0.25, 'Rmoney': None, 'Low': 0}
+34.3332 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1  ,  0.125],
+       [ 0.1  ,  0.125],
+       [ 0.1  , -0.125],
+       [-0.1  , -0.125]])
+34.3341 	EXP 	Created Red = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=False, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1, name='Red', opacity=1.0, ori=array(0.0), pos=array([ 0.   ,  0.175]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+34.3343 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1  ,  0.375],
+       [ 0.1  ,  0.375],
+       [ 0.1  , -0.375],
+       [-0.1  , -0.375]])
+34.3352 	EXP 	Created Blue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='Blue', opacity=1.0, ori=array(0.0), pos=array([ 0.   , -0.325]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+34.3354 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1125,  0.05  ],
+       [ 0.1125,  0.05  ],
+       [ 0.1125, -0.05  ],
+       [-0.1125, -0.05  ]])
+34.3362 	EXP 	Created Grey = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='Grey', opacity=1.0, ori=array(0.0), pos=array([ 0.  ,  0.05]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+34.3428 	EXP 	Red: autoDraw = False
+34.3428 	EXP 	Blue: autoDraw = False
+34.3428 	EXP 	Grey: autoDraw = False
+34.3428 	EXP 	fixation: autoDraw = False
+34.3428 	EXP 	LeftRep: autoDraw = False
+34.3428 	EXP 	RightRep: autoDraw = False
+34.3428 	EXP 	MiddleRep: autoDraw = False
+34.3428 	EXP 	RedNumb: autoDraw = False
+34.3428 	EXP 	BlueNumb: autoDraw = False
+34.3428 	EXP 	GreyNumb: autoDraw = False
+34.3428 	EXP 	RMoney: autoDraw = False
+34.3428 	EXP 	BMoney: autoDraw = False
+34.3428 	EXP 	RMoney: text = '$20.55'
+34.3428 	EXP 	BMoney: text = '$0.28'
+34.3428 	EXP 	GreyNumb: text = '10%'
+34.3428 	EXP 	GreyNumb: pos = array([ 0.  ,  0.05])
+34.3428 	EXP 	RedNumb: text = '25%'
+34.3428 	EXP 	RedNumb: pos = array([ 0.   ,  0.175])
+34.3428 	EXP 	BlueNumb: text = '75%'
+34.3428 	EXP 	BlueNumb: pos = array([ 0.   , -0.325])
+34.6087 	EXP 	fixation: autoDraw = True
+35.3430 	EXP 	fixation: autoDraw = False
+35.3589 	EXP 	RightRep: autoDraw = True
+35.3589 	EXP 	MiddleRep: autoDraw = True
+35.3589 	EXP 	LeftRep: autoDraw = True
+35.3589 	EXP 	Red: autoDraw = True
+35.3589 	EXP 	Blue: autoDraw = True
+35.3589 	EXP 	Grey: autoDraw = True
+35.3589 	EXP 	RMoney: autoDraw = True
+35.3589 	EXP 	BMoney: autoDraw = True
+35.3589 	EXP 	GreyNumb: autoDraw = True
+35.9944 	DATA 	Keypress: p
+35.9950 	EXP 	New trial (rep=0, index=2): {'Safe': 5, 'Bmoney': None, 'Center': 0.0, 'Uncertainty': 0.29999999999999999, 'BlueHeight': 0.5, 'High': 20, 'RedHeight': 0.5, 'Rmoney': None, 'Low': 0}
+36.0043 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+36.0052 	EXP 	Created Red = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=False, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1, name='Red', opacity=1.0, ori=array(0.0), pos=array([ 0.  ,  0.05]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+36.0054 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+36.0063 	EXP 	Created Blue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='Blue', opacity=1.0, ori=array(0.0), pos=array([ 0.  , -0.45]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+36.0065 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1125,  0.15  ],
+       [ 0.1125,  0.15  ],
+       [ 0.1125, -0.15  ],
+       [-0.1125, -0.15  ]])
+36.0073 	EXP 	Created Grey = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='Grey', opacity=1.0, ori=array(0.0), pos=array([ 0. , -0.2]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+36.0266 	EXP 	Red: autoDraw = False
+36.0266 	EXP 	Blue: autoDraw = False
+36.0266 	EXP 	Grey: autoDraw = False
+36.0266 	EXP 	fixation: autoDraw = False
+36.0266 	EXP 	LeftRep: autoDraw = False
+36.0266 	EXP 	RightRep: autoDraw = False
+36.0266 	EXP 	MiddleRep: autoDraw = False
+36.0266 	EXP 	RedNumb: autoDraw = False
+36.0266 	EXP 	BlueNumb: autoDraw = False
+36.0266 	EXP 	GreyNumb: autoDraw = False
+36.0266 	EXP 	RMoney: autoDraw = False
+36.0266 	EXP 	BMoney: autoDraw = False
+36.0266 	EXP 	RMoney: text = '$18.47'
+36.0266 	EXP 	BMoney: text = '$-0.29'
+36.0266 	EXP 	GreyNumb: text = '30%'
+36.0266 	EXP 	GreyNumb: pos = array([ 0. , -0.2])
+36.0266 	EXP 	RedNumb: text = '50%'
+36.0266 	EXP 	RedNumb: pos = array([ 0.  ,  0.05])
+36.0266 	EXP 	BlueNumb: text = '50%'
+36.0266 	EXP 	BlueNumb: pos = array([ 0.  , -0.45])
+36.2759 	EXP 	fixation: autoDraw = True
+37.0097 	EXP 	fixation: autoDraw = False
+37.0258 	EXP 	RightRep: autoDraw = True
+37.0258 	EXP 	MiddleRep: autoDraw = True
+37.0258 	EXP 	LeftRep: autoDraw = True
+37.0258 	EXP 	Red: autoDraw = True
+37.0258 	EXP 	Blue: autoDraw = True
+37.0258 	EXP 	Grey: autoDraw = True
+37.0258 	EXP 	RMoney: autoDraw = True
+37.0258 	EXP 	BMoney: autoDraw = True
+37.0258 	EXP 	GreyNumb: autoDraw = True
+37.4104 	DATA 	Keypress: p
+37.4110 	EXP 	New trial (rep=0, index=3): {'Safe': 5, 'Bmoney': None, 'Center': 0.0, 'Uncertainty': 0.40000000000000002, 'BlueHeight': 0.5, 'High': 20, 'RedHeight': 0.5, 'Rmoney': None, 'Low': 0}
+37.4166 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+37.4176 	EXP 	Created Red = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=False, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1, name='Red', opacity=1.0, ori=array(0.0), pos=array([ 0.  ,  0.05]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+37.4177 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+37.4186 	EXP 	Created Blue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='Blue', opacity=1.0, ori=array(0.0), pos=array([ 0.  , -0.45]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+37.4188 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1125,  0.2   ],
+       [ 0.1125,  0.2   ],
+       [ 0.1125, -0.2   ],
+       [-0.1125, -0.2   ]])
+37.4196 	EXP 	Created Grey = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='Grey', opacity=1.0, ori=array(0.0), pos=array([ 0. , -0.2]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+37.4258 	EXP 	Red: autoDraw = False
+37.4258 	EXP 	Blue: autoDraw = False
+37.4258 	EXP 	Grey: autoDraw = False
+37.4258 	EXP 	fixation: autoDraw = False
+37.4258 	EXP 	LeftRep: autoDraw = False
+37.4258 	EXP 	RightRep: autoDraw = False
+37.4258 	EXP 	MiddleRep: autoDraw = False
+37.4258 	EXP 	RedNumb: autoDraw = False
+37.4258 	EXP 	BlueNumb: autoDraw = False
+37.4258 	EXP 	GreyNumb: autoDraw = False
+37.4258 	EXP 	RMoney: autoDraw = False
+37.4258 	EXP 	BMoney: autoDraw = False
+37.4258 	EXP 	RMoney: text = '$16.92'
+37.4258 	EXP 	BMoney: text = '$-0.08'
+37.4258 	EXP 	GreyNumb: text = '40%'
+37.4258 	EXP 	GreyNumb: pos = array([ 0. , -0.2])
+37.4258 	EXP 	RedNumb: text = '50%'
+37.4258 	EXP 	RedNumb: pos = array([ 0.  ,  0.05])
+37.4258 	EXP 	BlueNumb: text = '50%'
+37.4258 	EXP 	BlueNumb: pos = array([ 0.  , -0.45])
+37.6943 	EXP 	fixation: autoDraw = True
+38.4271 	EXP 	RightRep: autoDraw = True
+38.4271 	EXP 	MiddleRep: autoDraw = True
+38.4271 	EXP 	LeftRep: autoDraw = True
+38.4271 	EXP 	Red: autoDraw = True
+38.4271 	EXP 	Blue: autoDraw = True
+38.4271 	EXP 	Grey: autoDraw = True
+38.4271 	EXP 	RMoney: autoDraw = True
+38.4271 	EXP 	BMoney: autoDraw = True
+38.4271 	EXP 	GreyNumb: autoDraw = True
+38.4271 	EXP 	fixation: autoDraw = False
+38.8475 	DATA 	Keypress: p
+38.8612 	EXP 	New trial (rep=0, index=4): {'Safe': 5, 'Bmoney': None, 'Center': 0.0, 'Uncertainty': 0.84999999999999998, 'BlueHeight': 0.5, 'High': 20, 'RedHeight': 0.5, 'Rmoney': None, 'Low': 0}
+38.8668 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+38.8678 	EXP 	Created Red = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=False, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1, name='Red', opacity=1.0, ori=array(0.0), pos=array([ 0.  ,  0.05]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+38.8679 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1 ,  0.25],
+       [ 0.1 ,  0.25],
+       [ 0.1 , -0.25],
+       [-0.1 , -0.25]])
+38.8688 	EXP 	Created Blue = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='Blue', opacity=1.0, ori=array(0.0), pos=array([ 0.  , -0.45]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+38.8690 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x1117dcad0>: vertices = array([[-0.1125,  0.425 ],
+       [ 0.1125,  0.425 ],
+       [ 0.1125, -0.425 ],
+       [-0.1125, -0.425 ]])
+38.8699 	EXP 	Created Grey = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 0.,  0.,  0.]), fillColorSpace='rgb', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor=array([ 0.,  0.,  0.]), lineColorSpace='rgb', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='Grey', opacity=1.0, ori=array(0.0), pos=array([ 0. , -0.2]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+38.8781 	EXP 	Red: autoDraw = False
+38.8781 	EXP 	Blue: autoDraw = False
+38.8781 	EXP 	Grey: autoDraw = False
+38.8781 	EXP 	fixation: autoDraw = False
+38.8781 	EXP 	LeftRep: autoDraw = False
+38.8781 	EXP 	RightRep: autoDraw = False
+38.8781 	EXP 	MiddleRep: autoDraw = False
+38.8781 	EXP 	RedNumb: autoDraw = False
+38.8781 	EXP 	BlueNumb: autoDraw = False
+38.8781 	EXP 	GreyNumb: autoDraw = False
+38.8781 	EXP 	RMoney: autoDraw = False
+38.8781 	EXP 	BMoney: autoDraw = False
+38.8781 	EXP 	RMoney: text = '$21.59'
+38.8781 	EXP 	BMoney: text = '$1.08'
+38.8781 	EXP 	GreyNumb: text = '85%'
+38.8781 	EXP 	GreyNumb: pos = array([ 0. , -0.2])
+38.8781 	EXP 	RedNumb: text = '50%'
+38.8781 	EXP 	RedNumb: pos = array([ 0.  ,  0.05])
+38.8781 	EXP 	BlueNumb: text = '50%'
+38.8781 	EXP 	BlueNumb: pos = array([ 0.  , -0.45])
+39.1281 	EXP 	fixation: autoDraw = True
+39.8780 	EXP 	RightRep: autoDraw = True
+39.8780 	EXP 	MiddleRep: autoDraw = True
+39.8780 	EXP 	LeftRep: autoDraw = True
+39.8780 	EXP 	Red: autoDraw = True
+39.8780 	EXP 	Blue: autoDraw = True
+39.8780 	EXP 	Grey: autoDraw = True
+39.8780 	EXP 	RMoney: autoDraw = True
+39.8780 	EXP 	BMoney: autoDraw = True
+39.8780 	EXP 	GreyNumb: autoDraw = True
+39.8780 	EXP 	fixation: autoDraw = False
+40.3449 	DATA 	Keypress: escape

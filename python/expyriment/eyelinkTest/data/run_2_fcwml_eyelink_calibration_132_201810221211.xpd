@@ -1,0 +1,17 @@
+#Expyriment 0.9.0 (Python 2.7.15), .xpd-file, coding: cp1252
+#date: Mon Oct 22 2018 12:11:37
+#--EXPERIMENT INFO
+#e mainfile: run_2_fcwml_eyelink_calibration.py
+#e sha1: 44d263
+#e modules: 
+#e Experiment: FCWML132 - Calibration
+#e no between subject factors
+#e Block 0: Block
+#e     block factors: 
+#e     n trials: 9
+#e     trial factors: Y = [0, 1, 2]
+#e                    X = [0, 1, 2]
+#e                    
+#--SUBJECT INFO
+#s id: 132
+subject_id,Logevent,Onset,Key,RT,Dur_Dig,Dur_Fix

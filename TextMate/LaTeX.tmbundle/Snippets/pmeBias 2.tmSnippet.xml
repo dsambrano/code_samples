@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\frac{\frac{(\mu - s)}{\sigma_s^2}}{\left(\frac{1}{\sigma^2} + \frac{1}{\sigma_s^2}\right)}</string>
+	<key>name</key>
+	<string>pmeBias</string>
+	<key>tabTrigger</key>
+	<string>bias</string>
+	<key>uuid</key>
+	<string>7E5118C4-BF5D-47D2-A7CA-FDBDD184B0B6</string>
+</dict>
+</plist>
