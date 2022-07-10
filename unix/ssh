@@ -1,0 +1,37 @@
+# ssh keys and config files
+
+# Sources/Citations
+# Primarily from: https://www.youtube.com/watch?v=pE3EuiyShoM
+# Backup/basics from: https://www.youtube.com/watch?v=33dEcCKGBO4 
+# Some extra options stored: https://linuxize.com/post/using-the-ssh-config-file/
+
+# ssh username@ipaddress-or-url
+# example below:
+ssh dsambrano@192.168.1.69 # Can also add the -i to specify which ssh key to use as well as -p for a specific port
+
+
+
+# ssh key generation 
+ssh-keygen -t ed25519 -C "nas-synology" # -t specifies the type and -C is comment. You will want to name it something useful when it asks. Also make sure you specify the whole path
+
+
+
+# ssh share/send key to server
+ssh-copy-id -i ~/.ssh/id_rsa.pub -p 69420 username@url-or-ipaddress # public key file to server and specify port as well as username and address
+
+
+
+# ssh config file sample
+Host nas # this is the alias to be used 
+    Hostname 192.168.1.69 # The url or ip-address that you want to connect to 
+    User dsambrano # Username for the
+    Port 69420 # Set the posrt that you want to use default 22 (equal to -p 69420)
+    IdentifyFile ~/.ssh/id_rsa # The location for the ssh key location (NOTE: this is the PRIVATE key)
+    Compression yes # Do you want ot use compression
+    LogLevel INFO # What level of logging do you want
+
+
+
+# Update the ssh agent to only requre password one time 
+eval $(ssh-agent) # Run ssh-agent in the background and keep it running (so long as this shell is open)
+ssh-add ~/.ssh/id_rsa # Adds the ssh key to the agent now, you only need to type the password once (you can also just log into the server if key is in your config file so you dont have to add them separately)
