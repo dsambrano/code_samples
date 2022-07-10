@@ -26,7 +26,7 @@ Host nas # this is the alias to be used
     Hostname 192.168.1.69 # The url or ip-address that you want to connect to 
     User dsambrano # Username for the
     Port 69420 # Set the posrt that you want to use default 22 (equal to -p 69420)
-    IdentifyFile ~/.ssh/id_rsa # The location for the ssh key location (NOTE: this is the PRIVATE key)
+    IdentityFile ~/.ssh/id_rsa # The location for the ssh key location (NOTE: this is the PRIVATE key)
     Compression yes # Do you want ot use compression
     LogLevel INFO # What level of logging do you want
 
