@@ -1,9 +1,16 @@
 # ssh keys and config files
 
-# Sources/Citations
+# For this to work you need to change the servers /etc/ssh/sshd_config to enable PubkeyAuthentication yes and or RSAAuthentication yes. Additional as noted in sources, you need cannot have 777 privledges on the users folder as well as the .ssh folder of the server you are sshing into.
+
+
+
+###### Sources/Citations
 # Primarily from: https://www.youtube.com/watch?v=pE3EuiyShoM
 # Backup/basics from: https://www.youtube.com/watch?v=33dEcCKGBO4 
 # Some extra options stored: https://linuxize.com/post/using-the-ssh-config-file/
+# Annoying Synology Nas are not properly configured for SSH keys so you can follow this post to get it up and running: https://blog.aaronlenoir.com/2018/05/06/ssh-into-synology-nas-with-ssh-key/
+    # Note: there are additional chmods necessary listed in the comments: chmod 700 ~/.ssh; chmod 600 ~/.ssh/authorized_keys
+
 
 # ssh username@ipaddress-or-url
 # example below:
