@@ -1,0 +1,11 @@
+# A symbolic link is a way to have access to a file in two locations. If it is changed in one location it will automatically be changed in the other location. Some use cases include:
+    # 1. Making it easier to cd/change directories (~/Drive  instead of /Volumes/GoogleDrive/My\ Drive/)
+    # 2. Linking dotfiles between git repo and local files in home location
+    # 3. When configs need to be in a specific location but you want to have easier access/better organization
+
+# Sources: https://linuxhandbook.com/symbolic-link-linux/
+
+# Importantly, any changes you make to any file will be replicated across both locations. Its essentially a shortcut. 
+# In some rare cases you might want a hard link (beyond the scope of this here
+
+ln -s path/to/file easier-location-to-access

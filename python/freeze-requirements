@@ -1,0 +1,8 @@
+# When constructing a python project you typically want to specify the which packages (and more importantly which versions) you need for this project to work. The standard practice is with a requirements.txt file. Here is how you make them as well as how to use them to set up your virtual environment to be the same as the development environment:
+
+# First make the requirements.txt 
+pip freeze > requirements.txt # This takes all the packages in the active environment (so make sure you are already in the environment before running this line) and places them along with the version numbers for each package in a file called requirements.txt. This can be called anything, but requirements.txt is the most common.
+
+# Second use the requirments.txt to mimic the dev environment
+pip install -r /path/to/requirements.txt # Again this installs everything to the active enironment so make sure you are already in a virtual environment first
+# Note: The file does not specify which version of python, so you need to note that on your own. 
