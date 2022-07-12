@@ -1,0 +1,6 @@
+# Searching with vim: https://linuxize.com/post/vim-search/
+
+# To search forward i.e., from the top of the page, while in normal mode type / then the query
+# To search backward i.e., from the bottom fo the page, while in normal mode type ? then the query
+
+# To go to the next occurance press n or N for next in the opposite direction
