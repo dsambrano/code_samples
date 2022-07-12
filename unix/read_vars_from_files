@@ -1,0 +1,14 @@
+# If you have a file with a bunch of variable names (similar to an .env file) you can use them in bash by first source the file (https://askubuntu.com/a/450520):
+. /path/to/file
+
+# Then, thats it!
+
+# Example file (/etc/os-release):
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+
+. /etc/os-release
+echo $NAME # output: Ubuntu
