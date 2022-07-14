@@ -1,0 +1,23 @@
+# Some helpful tips to move around in vim more efficiently: https://vim.fandom.com/wiki/Moving_around
+
+- e: move to end of word
+- w: move to beginning of next word
+- 3w: move forward 3 words
+- W: move to character after next nonwhite space
+- b: move backward to the beginning of a word
+- 3b: move backward three words
+- $: move to end of line
+- 0: move to beginning of line
+- ): jump forward one sentence
+- (: Jump backward one sentence
+- }: forward one paragraph
+- {: backward one paragraph
+- j: jump forward one line
+- 10j: jump forward 10 lines
+- k: jump backwards 1 line
+- 10: "" 10 lines
+- H: Jump to the top of the screen
+- M: Middle of the screen
+- L: bottom of the screen
+- G: Jump to end of the file
+- 1G: beginning of line

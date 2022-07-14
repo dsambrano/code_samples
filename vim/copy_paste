@@ -1,0 +1,2 @@
+# While in insert mode copy a line with yy and paste it with p
+# https://www.vimfromscratch.com/articles/how-to-copy-and-paste-a-line-in-vim
