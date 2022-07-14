@@ -36,8 +36,9 @@ Host nas # this is the alias to be used
     IdentityFile ~/.ssh/id_rsa # The location for the ssh key location (NOTE: this is the PRIVATE key)
     Compression yes # Do you want ot use compression
     LogLevel INFO # What level of logging do you want
-
-
+    IgnoreUnknown AddKeysToAgent,UseKeychain # Will likely want this line and next two to be the first entry on Host * so it affects all hosts: https://stackoverflow.com/a/47455373
+    AddKeysToAgent yes # Adds the SSH key to ssh-agent so you dont need to manually with ssh-add (https://superuser.com/a/1114257)
+    UseKeychain yes # Uses keychain to store the added keys (Does not work on Linux so you need the Ignore line as well (see previous two lines https://www.unixtutorial.org/ssh-bad-configuration-option-usekeychain/
 
 # Update the ssh agent to only requre password one time 
 eval $(ssh-agent) # Run ssh-agent in the background and keep it running (so long as this shell is open)
