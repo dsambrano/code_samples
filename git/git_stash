@@ -1,0 +1,22 @@
+# With git stash you can store changes without committing them on reverting them.
+# This is super useful especially if you want to move changes to a different branch because you
+    # - accidently made changes in the wrong branch and need to move them over or
+    # - forgot to pull remote changes before making your own
+
+# Sources: https://www.codeblocq.com/2016/02/Stash-your-changes-before-switching-branch/
+
+# This can all be solved with the `git stash` command. First you stash the uncommitted changes:
+
+git stash
+
+# Then do what ever you need to do
+
+git pull 
+
+# or 
+
+git checkout XXXX
+
+# Then pop the changes back
+
+git stash pop
