@@ -1,0 +1,3 @@
+# Source vs dot what is the best way to execute a script?
+
+`. ~/file` is the Posix compliant way to do this and `source ~/file` is a more readable synonym provided by bash and some other shells [source](https://stackoverflow.com/a/20097303).
