@@ -43,3 +43,13 @@ Host nas # this is the alias to be used
 # Update the ssh agent to only requre password one time 
 eval $(ssh-agent) # Run ssh-agent in the background and keep it running (so long as this shell is open)
 ssh-add ~/.ssh/id_rsa # Adds the ssh key to the agent now, you only need to type the password once (you can also just log into the server if key is in your config file so you dont have to add them separately)
+
+
+
+## Securtiy
+
+# You might also want to secure your ssh daemon by only allowing localhosts to ssh in. This can be done by changing your `/etc/hosts.deny` file to have `sshd: All Except Local`. Alternatively, you can specify that only a specific IP address can access the server with the `etc/hosts.allow` file ([source](https://stackoverflow.com/a/32222907)).
+
+# You might also want to also want to remove password access. And require all ssh sessions to use an sshkey. This can be done by editing the `/ect/ssh/ssh_config` file and uncomment the line that says: `    PasswordAuthentication no`.
+
+# You should also probably prevent root access from ssh as well, but we can cover that in a separate security post. 

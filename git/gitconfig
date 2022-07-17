@@ -1,0 +1,17 @@
+# Gitconfig 
+
+Gitconfig file is a global config file that can set some common parameters. I have listed some below, but here is a [link](https://stackoverflow.com/a/28156806) to some additional ones
+
+```
+[user]
+    name = Name
+    email = youremail@domain.com
+
+[core]
+    autocrlf = input # input for unix-based and true for windows ([detailed source](https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/#the-old-system),[source](http://vcloud-lab.com/entries/devops/resolved-git-warning-lf-will-be-replaced-by-crlf-in-file))
+
+[alias]
+    co = checkout
+    ci = commit
+
+
