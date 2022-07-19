@@ -12,3 +12,9 @@ if you only want some of the lines, like lines 10-20 you can use this command:
 ```
 :10,20s/^/alias 
 ```
+
+when you want to replace something with a new line use the `\r` instead of the standard `\n` [source](https://stackoverflow.com/a/71334)
+
+```
+s#\. #. \r#g
+```

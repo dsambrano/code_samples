@@ -22,5 +22,5 @@ A simple, but not necessarily optimal solution is to use include the following a
 *       text=auto
 ```
 
-but for more detailed info see this [post](https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/#the-new-system)
+but for more detailed info see this [post](https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/#the-new-system). There is also a [SO post](https://stackoverflow.com/a/10855862) that has a sample file. 
 
