@@ -18,3 +18,15 @@ print(num) # Output: 1000000
 f"{num:,} # Output: 1,000,000
 ```
 
+f strings can also be used to round [values](https://stackoverflow.com/a/50340297)
+
+
+```python
+f'{value:{width}.{precision}}'
+```
+
+where:
+
+- `value` is any expression that evaluates to a number
+- `width` specifies the number of characters used in total to display, but if value needs more space than the width specifies then the additional space is used.
+- `precision` indicates the number of characters used after the decimal point
