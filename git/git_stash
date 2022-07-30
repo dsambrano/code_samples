@@ -20,3 +20,6 @@ git checkout XXXX
 # Then pop the changes back
 
 git stash pop
+
+# You might also need to show the changes in the stash, that can be done with https://howto.lintel.in/how-to-see-stashed-changes-using-git-stash/
+git stash show -p
