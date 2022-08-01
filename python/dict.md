@@ -11,3 +11,5 @@
 `.keys()` lists out the keys
 
 `.values()` lists out the items
+
+[source](https://www.w3schools.com/python/python_ref_dictionary.asp)
