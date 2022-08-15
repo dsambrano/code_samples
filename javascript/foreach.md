@@ -9,6 +9,14 @@ my_list.foreach((number) => {
 });
 ```
 
+Another way is to use the let keyword ([source][letloop]):
+
+```JavaScript
+const colors = ["Red", "Purple", "Blue"];
+for (let color of colors){
+  console.log(color)
+}```
 
 
 [foreach]: https://youtube.com/shorts/f8qh7DqTZrM?feature=share
+[letloop]: https://youtube.com/shorts/5LhWaN-ubgU?feature=share
