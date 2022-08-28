@@ -18,3 +18,5 @@ when you want to replace something with a new line use the `\r` instead of the s
 ```
 s#\. #. \r#g
 ```
+
+Other important tips. For every occurance in the whole file use the `%` as the line number (see first example). Use a g flag (see last example) to replace multiple occurances in the same line. And c flag will ask you to confirm each subsitution ([source](https://linuxize.com/post/vim-find-replace/)).
