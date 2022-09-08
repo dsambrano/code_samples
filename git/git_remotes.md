@@ -14,3 +14,9 @@ git push --set-upstream origin dev
 
 ```
 
+In contrast you may want to get a branch that is in the remote repo but you do not have locally. In these cases just do: ([source](https://stackoverflow.com/a/9537923))
+
+```bash
+git fetch
+git switch BRANCH_NAME
+```
