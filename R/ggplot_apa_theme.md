@@ -1,7 +1,7 @@
 # APA Theme Template for GGplot
 
 GGplot theme is better than the default, but its still pretty visually cluttered. 
-If you prefer the cleaner APA style look, here is a theme for you:
+If you prefer the cleaner APA style look, here is a theme for you (it also makes the background transparent to have a clean look in posters/presentations):
 
 ```R
 apatheme=theme_bw()+
