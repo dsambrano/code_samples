@@ -10,4 +10,13 @@ git diff hash..hash
 
 Removing the `..` just looks at the two and adding it in looks at all consecutive ones([source][]).
 
+
+If you are looking to get the difference between the last commit and the staged data you can use ([cached-diff][]):
+
+```bash
+git diff --cached
+```
+
+
 [source]: https://stackoverflow.com/a/3368758
+[cached-diff]: https://stackoverflow.com/a/1587877 "Cached Diff"
